@@ -67,7 +67,7 @@ if (newPrice === undefined || newPrice === null || isNaN(newPrice)) {
       ) : (
         <div className=" bg-gray-100 min-h-screen">
         
-        <h1 className="text-2xl font-bold mb-4">Admin Dashboard</h1>
+        <h1 className="text-2xl font-bold mb-4">Administrador</h1>
         {allProductsUpdated.map((category,index) => (
           <div key={index} className="mb-6">
             <h2 className="text-xl font-semibold mb-2">{category.category}</h2>
@@ -90,7 +90,7 @@ if (newPrice === undefined || newPrice === null || isNaN(newPrice)) {
                     onClick={() => handleSave(product.id, category.category)}
                     className="bg-orange text-white px-4 py-2 rounded-lg hover:bg-blue-600"
                   >
-                    Save
+                    Guardar
                   </button>
                 </div>
               ))}
