@@ -84,11 +84,11 @@ if (newPrice === undefined || newPrice === null || isNaN(newPrice)) {
                     onChange={(e) =>
                       handlePriceChange(product.id, e.target.value)
                     }
-                    className="border border-gray-300 rounded-lg p-2 w-32 text-right mr-4"
+                    className="border border-gray-300 rounded-lg p-2 w-20 text-right mr-4"
                   />
                   <button
                     onClick={() => handleSave(product.id, category.category)}
-                    className="bg-orange text-white px-4 py-2 rounded-lg hover:bg-blue-600"
+                    className="bg-orange text-white px-2 py-2 rounded-lg hover:bg-blue-600"
                   >
                     Guardar
                   </button>
