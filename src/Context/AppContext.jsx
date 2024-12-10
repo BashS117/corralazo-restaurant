@@ -185,7 +185,7 @@ console.log("state",state)
 return (
     <AppContext.Provider value={
         {
-          productsUpdated,secondaryProductsUpdated,
+          productsUpdated,secondaryProductsUpdated,allProductsUpdated,
             state,dispatch,
             removeFromCart,
             setFilter,
