@@ -1,10 +1,9 @@
-import secondaryProducts from '../../data/secondaryProducts.json'
 import AcordionItem from '../AcordionItem';
-const AcordionRight = () => {
+const AcordionRight = ({secondaryProductsUpdated}) => {
     return (
       <div className='w-[40%]'>
          {
-            secondaryProducts.map((data, index)=>(
+            secondaryProductsUpdated.map((data, index)=>(
                 <AcordionItem rightPanel={true} key={index} data={data} />
             ))
         }

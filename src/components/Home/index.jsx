@@ -7,7 +7,7 @@ import { AppContext } from '../../Context/AppContext'
 import { useContext } from 'react'
 const Home = () => {
 
-  const {filteredProducts}= useContext(AppContext)
+  const {filteredProducts,productsUpdated,secondaryProductsUpdated}= useContext(AppContext)
   console.log("PRODUCTOS FILTRADOS: ",filteredProducts)
 
   const renderFilter =()=>{
@@ -21,8 +21,8 @@ const Home = () => {
       return(
 <div className='flex mt-[10px] gap-[10px] w-full relative'>
       
-        <AcordionLeft/>
-        <AcordionRight/>
+        <AcordionLeft productsUpdated={productsUpdated} />
+        <AcordionRight secondaryProductsUpdated={secondaryProductsUpdated} />
 
 
     </div>      )

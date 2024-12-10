@@ -32,7 +32,7 @@ const FilterResult = ({products}) => {
           {products.map((product, index) => (
             <li className="p-[5px] shadow-md items-center rounded-lg flex justify-between text-white bg-orange mb-[10px] h-[100px]" key={index}>
               <figure >
-                <img className='w-[100%] h-[90px] rounded-md' src='https://mir-s3-cdn-cf.behance.net/project_modules/disp/0997c2185580241.65694b1bc9a96.jpg' alt={product.name} />
+                <img className='w-[100%] h-[90px] rounded-md' src={product.image} alt={product.name} />
               </figure>
               <div className="flex flex-col items-center">
                 <p className="font-bold text-[1.1rem] ">{product.name}</p>

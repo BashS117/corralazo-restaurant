@@ -1,4 +1,6 @@
 import { createContext, useContext, useReducer,useState,useEffect } from "react";
+import { collection, getDocs } from "firebase/firestore";
+import { db } from "../firebase/firebase";
 import secondaryProducts from '../data/secondaryProducts.json'
 import  products from '../data/products.json'
 import swal from 'sweetalert2'
@@ -17,6 +19,11 @@ export const AppProvider =({children})=>{
     // Unir los dos arrays
   const allProducts = products.concat(secondaryProducts);
 
+  const [productsUpdated, setProductsUpdated] = useState(products);
+  const [secondaryProductsUpdated, setSecondaryProducts] = useState(secondaryProducts);
+  const [allProductsUpdated,setallProductsUpdated]= useState([])
+
+
   // Estado para el valor del input de filtrado
   const [filter, setFilter] = useState(null);
      //productos filtrados
@@ -24,13 +31,13 @@ export const AppProvider =({children})=>{
 
 
 
-     const filteredProductsByTitle = (allProducts, filter) => {
-      return allProducts.flatMap(category => category.products.filter(item => item.name.toLowerCase().includes(filter.toLowerCase())));
+     const filteredProductsByTitle = (allProductsUpdated, filter) => {
+      return allProductsUpdated.flatMap(category => category.products.filter(item => item.name.toLowerCase().includes(filter.toLowerCase())));
     };
 
-  const filterBy = (searchType,allProducts,filter)=>{
+  const filterBy = (searchType,allProductsUpdated,filter)=>{
     if(searchType==='BY_TITLE'){
-     return   filteredProductsByTitle(allProducts,filter)
+     return   filteredProductsByTitle(allProductsUpdated,filter)
     }
 
     // if(!searchType){
@@ -39,9 +46,56 @@ export const AppProvider =({children})=>{
 
 }
 
+const updateAllProducts = async () => {
+  const pricesCollection = collection(db, "prices");
+  const priceSnapshot = await getDocs(pricesCollection);
+  const pricesData = priceSnapshot.docs.map(doc => doc.data());
+
+   // Actualiza los precios en productos y secondaryProducts
+   const updatePrices = (data) =>
+   data.map(category => ({
+    ...category,
+    products: category.products.map(product => {
+     const priceEntry = pricesData.find(p => p.id === product.id);
+     return { ...product, 
+      price: priceEntry ? priceEntry.price : product.price };
+    }),
+   }));  
+
+   const updatedProducts = updatePrices(products);
+    const updatedSecondaryProducts = updatePrices(secondaryProducts);
+    const updatedallProducts = updatePrices(allProducts);
+    setProductsUpdated(updatedProducts);
+    setSecondaryProducts(updatedSecondaryProducts);
+    setallProductsUpdated(updatedallProducts);
+
+  // Fusionar precios con el JSON
+  const updatedData = allProducts.map(category => ({
+    ...category,
+    products: category.products.map(product => {
+      const priceEntry = pricesData.find(p => p.id === product.id);
+      return {
+        ...product,
+        price: priceEntry ? priceEntry.price : product.price, // Actualiza si hay un precio en Firebase
+      };
+    }),
+  }));
+
+  setallProductsUpdated(updatedData);
+  console.log(updatedData)
+};
+
+
+
+useEffect(() => {
+  updateAllProducts();
+}, []);
   useEffect(() => {
+    
+
+
     if(!filter)setFilteredProducts(null)
-    if (filter) setFilteredProducts(filterBy('BY_TITLE', allProducts, filter, ))
+    if (filter) setFilteredProducts(filterBy('BY_TITLE', allProductsUpdated, filter, ))
   
 }, [ filter])
 
@@ -131,6 +185,7 @@ console.log("state",state)
 return (
     <AppContext.Provider value={
         {
+          productsUpdated,secondaryProductsUpdated,
             state,dispatch,
             removeFromCart,
             setFilter,
