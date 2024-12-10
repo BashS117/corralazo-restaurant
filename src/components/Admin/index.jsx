@@ -77,7 +77,7 @@ if (newPrice === undefined || newPrice === null || isNaN(newPrice)) {
                   key={product.id}
                   className="flex items-center justify-between mb-4"
                 >
-                  <span className="text-gray-700 flex-1">{product.name}</span>
+                  <p className="text-gray flex-1">{product.name}</p>
                   <input
                     type="number"
                     value={editedPrices[product.id] || product.price}
