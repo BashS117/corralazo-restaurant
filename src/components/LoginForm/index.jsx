@@ -59,7 +59,7 @@ const LoginForm = ({ onLogin }) => {
       />
       <button
         type="submit"
-        className={`bg-blue-500 text-white p-2 rounded w-full ${loading ? "opacity-50 cursor-not-allowed" : ""}`}
+        className={`bg-orange text-white p-2 rounded w-full ${loading ? "opacity-50 cursor-not-allowed" : ""}`}
         disabled={loading}
       >
         {loading ? "Iniciando sesión..." : "Iniciar sesión"}
