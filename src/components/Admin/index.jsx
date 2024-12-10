@@ -61,11 +61,11 @@ if (newPrice === undefined || newPrice === null || isNaN(newPrice)) {
   };
 
   return (
-    <div className="p-6">
+    <div className="p-6 flex items-center justify-center">
       {!user ? (
         <LoginForm onLogin={handleLogin} />
       ) : (
-        <div className="p-6 bg-gray-100 min-h-screen">
+        <div className=" bg-gray-100 min-h-screen">
         
         <h1 className="text-2xl font-bold mb-4">Admin Dashboard</h1>
         {allProductsUpdated.map((category,index) => (

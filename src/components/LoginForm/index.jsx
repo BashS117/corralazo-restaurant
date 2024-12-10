@@ -40,7 +40,7 @@ const LoginForm = ({ onLogin }) => {
   };
 
   return (
-    <form onSubmit={handleLogin} className="flex flex-col items-center p-6 gap-4">
+    <form onSubmit={handleLogin} className="flex flex-col items-center p-6 gap-4 w-[400px]">
       <input
         type="email"
         placeholder="Correo electrónico"
