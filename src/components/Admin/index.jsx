@@ -5,6 +5,7 @@ import { doc, updateDoc } from "firebase/firestore";
 import { onAuthStateChanged } from "firebase/auth";
 import { db,auth } from "../../firebase/firebase";
 import LoginForm from "../LoginForm";
+import LogoutButton from "../LogoutButton";
 
 
 const AdminDashboard = () => {
@@ -65,8 +66,8 @@ if (newPrice === undefined || newPrice === null || isNaN(newPrice)) {
       {!user ? (
         <LoginForm onLogin={handleLogin} />
       ) : (
-        <div className=" bg-gray-100 min-h-screen">
-        
+        <div className="sm:relative bg-gray-100 min-h-screen">
+        <LogoutButton/>
         <h1 className="text-2xl font-bold mb-4">Administrador</h1>
         {allProductsUpdated.map((category,index) => (
           <div key={index} className="mb-6">
