@@ -22,10 +22,23 @@
         { "id":9,"name": "Salchipapa y Tocineta", "price":8, "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/878895185580241.65858fb6abf84.png" },
         { "id":10,"name": "Salchipapa Pollo y Tocineta", "price":9, "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/878895185580241.65858fb6abf84.png" },
         { "id":11,"name": "Salchipapa Maiz y Pollo", "price":9, "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/878895185580241.65858fb6abf84.png" },
+        { "id":62,"name": "Salchipapa Maiz y Carne", "price":9, "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/878895185580241.65858fb6abf84.png" },
         { "id":12,"name": "Salchipapa de Carne", "price":9, "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/878895185580241.65858fb6abf84.png" },
         { "id":13,"name": "Salchipapa Carne y Tocineta", "price":10, "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/878895185580241.65858fb6abf84.png" },
         { "id":14,"name": "Salchipapa Con chorizo", "price":11, "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/878895185580241.65858fb6abf84.png" },
+        { "id":63,"name": "Salchipapa Para dos personas", "price":20, "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/878895185580241.65858fb6abf84.png" },
         { "id":15,"name": "Salchipapa Familiar", "price":25, "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/878895185580241.65858fb6abf84.png" }
+      ]
+    },
+    {
+      "category": "Arepas de la Casa",
+      "categoryImg": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/a0857d185580241.67d74f64e047d.png",
+"label":"NUEVO",
+      "products": [
+        { "id":64,"name": "Arepa de Pollo", "price":12, "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/a0857d185580241.67d74f64e047d.png" },
+        { "id":65,"name": "Arepa de Carne desmechada", "price":12,  "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/a0857d185580241.67d74f64e047d.png" },
+        { "id":66,"name": "Arepa Burguer de la Casa", "price":13,  "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/a0857d185580241.67d74f64e047d.png" }
+     
       ]
     },
     {
