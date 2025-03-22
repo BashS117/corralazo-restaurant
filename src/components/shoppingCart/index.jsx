@@ -16,7 +16,7 @@ const ShoppingCart = ({sum}) => {
 
 
   return (
-    <div className='border border-orange rounded-lg '>
+    <div className='border text-white border-orange rounded-lg '>
         <div className='flex justify-between items-center p-6'>
           <h2 className='font-medium text-xl'>Tu pedido</h2>    
         </div>

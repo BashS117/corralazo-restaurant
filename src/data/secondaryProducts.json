@@ -18,7 +18,7 @@
     },
     {
       "category": "Granizados",
-      "categoryImg": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/444b1d185580241.65886218cd390.png",
+      "categoryImg": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/a017a1185580241.67dce07d78c11.jpeg",
       "products": [
         { "id":46,"name": "Granizado Sin Licor", "price":5, "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/8205ee185580241.65870868accf4.png" },
         { "id":47,"name": "Granizado Con Licor", "price":6, "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/22f9b7185580241.65870868a9817.png" },
@@ -27,7 +27,7 @@
     },
     {
       "category": "Niños",
-      "categoryImg": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/7b6935185580241.65885f2f32544.png",
+      "categoryImg": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/7649e8185580241.67dce07d7aa31.jpeg",
 
       "products": [
         { "id":49,"name": "Mini Hamburguesas", "price":9, "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/7b6935185580241.65885f2f32544.png" }
@@ -35,7 +35,7 @@
     },
     {
       "category": "Diferente",
-      "categoryImg": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/5f1fd9185580241.65884deb48b0f.png",
+      "categoryImg": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/3b4634185580241.67dce07d7b09d.jpeg",
 
       "products": [
         { "id":50,"name": "Desgranado sencillo", "price":12, "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/0c212b185580241.65d276ffc7f2a.png" },
@@ -49,7 +49,7 @@
     },
     {
       "category": "Adiciones",
-      "categoryImg": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/8085fd185580241.65885c0bed8b8.png",
+      "categoryImg": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/a838e5185580241.67dce07d7a173.jpeg",
       "products": [
         { "id":56,"name": "Adición de Queso", "price":1, "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/4583c6185580241.658858635a54b.png" },
         { "id":57,"name": "Adición de Maiz",  "price":1, "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/f2e88c185580241.658858635aea5.png" },

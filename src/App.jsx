@@ -12,6 +12,7 @@ function App() {
     <>
     <AppProvider>
     <BrowserRouter>
+    <div class="fondo"></div>
       <Header/>
       <Routes>
         
@@ -19,6 +20,7 @@ function App() {
         <Route path='/admin' element={<AdminDashboard/>} />
       
         <Route path='*' element={<p>Not Found</p>} />
+
       </Routes>
       <Order/>
       

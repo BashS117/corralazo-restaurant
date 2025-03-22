@@ -5,7 +5,7 @@ import { useContext } from 'react'
 const Header = () => {
     const {setFilter}=useContext(AppContext)
   return (
-    <header className='w-full'>
+    <header className='w-full text-white'>
         <div className='flex justify-between '>
             <figure>
                 <img src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/39ff23185580241.65887d5f1f855.png" alt="logo" />
