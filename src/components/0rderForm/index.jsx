@@ -54,6 +54,28 @@ googleMapsUrl='';
     setSelectedOption(value);
   };
   
+
+  const [formData, setFormData] = useState(() => {
+    const savedData = localStorage.getItem("orderFormData");
+    return savedData ? JSON.parse(savedData) : {
+      nombre: "",
+      direccionprincipal: "Cra.",
+      direccionuno: "",
+      direcciondos: "",
+      direcciontres: "",
+      barrio: "",
+      notas: "",
+    };
+  });
+  
+  const handleInputChange = (event) => {
+    const { name, value } = event.target;
+    setFormData((prevData) => {
+      const updatedData = { ...prevData, [name]: value };
+      localStorage.setItem("orderFormData", JSON.stringify(updatedData));
+      return updatedData;
+    });
+  };
   return (
     <div className='bg-[#000]/60 rounded-md w-[full] text-left mb-3'>
       <div className='flex flex-col  gap-1 mb-[10px]'>
@@ -73,10 +95,9 @@ googleMapsUrl='';
      <label htmlFor="">Nombre</label>
      <input className='w-full'
       type="text" 
-      {...register('nombre', {
-       required:true,
-       maxLength:10
-      })}
+      {...register('nombre', {required:true,maxLength:10})}
+      value={formData.nombre}
+      onChange={handleInputChange}
        />
        {errors.nombre?.type==='required' && <p>El nombre es requerido</p>}
        {errors.nombre?.type==='maxLength' && <p>El nombre debe tener menos de 10 caracteres</p>}
@@ -88,7 +109,10 @@ googleMapsUrl='';
        <select className='w-14'  
        {...register('direccionprincipal', {
          required:true
-        })} id="">
+        })} id=""
+        value={formData.direccionprincipal}
+        onChange={handleInputChange}
+        >
          <option value="Cra.">carrera</option>
          <option value="Cl.">calle</option>
          <option value="diagonal">diagonal</option>
@@ -99,7 +123,9 @@ googleMapsUrl='';
            required:true,
            maxLength:3,
           })}
-         type="text" />
+         type="text"
+         value={formData.direccionuno}
+  onChange={handleInputChange} />
        <p>#</p>
        <input 
          className='w-14'
@@ -108,6 +134,8 @@ googleMapsUrl='';
            required:true
           })}
          type="text" 
+         value={formData.direcciondos}
+  onChange={handleInputChange}
          />
        <p>-</p>
        <input 
@@ -116,7 +144,11 @@ googleMapsUrl='';
          maxLength:3,
          required:true
         })}
-        type="text" />
+        type="text" 
+        value={formData.direcciontres}
+  onChange={handleInputChange}
+        />
+
 
      </div>
  
@@ -128,14 +160,20 @@ googleMapsUrl='';
      {...register('barrio', {
        maxLength:50
       })}
-     type="text"/>
+     type="text"
+     value={formData.barrio}
+  onChange={handleInputChange}
+     />
    </div>
    <div className='flex flex-col mb-2 '  >
      <label htmlFor="">Agrega notas a tu pedido y da click en "Enviar a WhatsApp"</label>
      <input 
      className='w-full' 
      {...register('notas')}
-     type="text" />
+     type="text"
+     value={formData.notas}
+  onChange={handleInputChange}
+      />
    </div>
    <ShoppingCart sum={sum}/>
  </form>
