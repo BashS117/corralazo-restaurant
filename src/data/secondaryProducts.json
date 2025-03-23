@@ -30,7 +30,7 @@
       "categoryImg": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/7649e8185580241.67dce07d7aa31.jpeg",
 
       "products": [
-        { "id":49,"name": "Mini Hamburguesas", "price":9, "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/7b6935185580241.65885f2f32544.png" }
+        { "id":49,"name": "Mini Hamburguesas", "price":9, "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/7b6935185580241.65885f2f32544.png" ,"description":" Ideal para niños viene con su porción de papas salsa verduras carne queso y tocineta"}
        ]
     },
     {
@@ -38,12 +38,12 @@
       "categoryImg": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/3b4634185580241.67dce07d7b09d.jpeg",
 
       "products": [
-        { "id":50,"name": "Desgranado sencillo", "price":12, "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/0c212b185580241.65d276ffc7f2a.png" },
-        { "id":51,"name": "Desgranado de la Casa", "price":15, "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/ee2513185580241.65d2761c6472f.png" },
+        { "id":50,"name": "Desgranado sencillo", "price":12, "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/0c212b185580241.65d276ffc7f2a.png" ,"description": "Elaborados con maíz dulce crema de leche salchicha ranchera tocineta queso ripio y nuestra salsa de la casa"},
+        { "id":51,"name": "Desgranado de la Casa", "price":15, "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/ee2513185580241.65d2761c6472f.png","description" : "Degranado especial de la casa"},
         { "id":52,"name": "Papas locas", "price":10, "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/18a83d185580241.65d2787f52f55.png" },
         { "id":53,"name": "Choripan", "price":8, "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/461f11185580241.65884deb4a2c5.png" },
-        { "id":54,"name": "Picada al Barril para 2", "price":25,  "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/5f1fd9185580241.65884deb48b0f.png" },
-        { "id":67,"name": "Picada al Barril para 3", "price":30,  "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/5f1fd9185580241.65884deb48b0f.png" },
+        { "id":54,"name": "Picada al Barril para 2", "price":25,  "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/5f1fd9185580241.65884deb48b0f.png" ,"description":"carne al barril para dos personas de cerdo res y chorizo acompañada de papas al francesa"},
+        { "id":67,"name": "Picada al Barril para 3", "price":30,  "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/5f1fd9185580241.65884deb48b0f.png" ,"description":"carne al barril para tres personas de cerdo res y chorizo acompañada de papas al francesa"},
         { "id":55,"name": "Choripapa", "price":9, "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/08ece6185580241.65884deb47eb1.png" }
       ]
     },
