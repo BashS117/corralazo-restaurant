@@ -53,7 +53,7 @@ googleMapsUrl='';
   };
   
   return (
-    <div className=' w-[full] text-left mb-3'>
+    <div className='bg-[#000]/60 rounded-md w-[full] text-left mb-3'>
       <div className='flex flex-col  gap-1 mb-[10px]'>
           <label htmlFor="">Tipo de Pedido</label>
          <select onChange={handleSelectChange} value={selectedOption} id=""

@@ -10,6 +10,8 @@ export default {
       'orange': '#FF570C',
       'gray': '#606470',
       'dark-gray': '#323643',
+      primary: "#ff0000", // Rojo personalizado
+      secondary: "#04ff04", // Verde personalizado
    
     },
     screens: {

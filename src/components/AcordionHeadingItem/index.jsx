@@ -6,12 +6,12 @@ const AcordionHeadingItem = ({category,categoryImg,index,handlePanelOpen,rightPa
         handlePanelOpen(category)
     }
   return (
-    <div className={`${rightPanel? 'h-[120px]':'h-[90px]'} items-center p-[5px] flex justify-between mb-[10px]  border-[1px] border-orange rounded-lg shadow-orange shadow-[0px_2px_8px]`} onClick={handleClick} >
+    <div className={`${rightPanel? 'h-[119px]':'h-[90px]'} items-center pr-[5px] sm:pl-0 flex justify-between mb-[10px]  border-[1px] border-orange rounded-lg shadow-orange shadow-[0px_2px_8px]`} onClick={handleClick} >
         <div className={`${rightPanel? 'flex flex-col':'flex  items-center '} gap-[5px] w-full font-bold `}>
         <figure>
-              <img className=' w-[110px] h-[80px] rounded-md object-cover' src={categoryImg} alt="" />
+              <img className=' w-[110px] h-[88px] rounded-md object-cover' src={categoryImg} alt="" />
           </figure>
-          <p className={`${index === 0  ? 'whitespace-normal break-words w-[75px]' : ''} bg-dark-gray/90 text-white font-semibold shadow-lg rounded-md px-1`}>   {category}</p>
+          <p className={`${index === 0  ? 'whitespace-normal break-words w-[75px]' : ''} bg-[#000]/60 text-white font-semibold shadow-lg rounded-md px-1`}>   {category}</p>
         </div>
       
         {isPanelOpen? <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="#FF570C" className="w-6 h-6 ">
