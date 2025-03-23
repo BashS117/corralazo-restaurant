@@ -10,10 +10,12 @@ const OrderForm = () => {
   const {state}=useContext(AppContext)
 
   let sum= 0;
-  state.cart.forEach(element => sum += element.price*element.quantity);
-  
+  state.cart.forEach(element => sum += element.price*element.quantity*1000);
+  sum = new Intl.NumberFormat("es-CO").format(Math.round(sum));
+
+  //texto producto nombre y precio
   const productNameandPrice = state.cart
-  .map((product) => `${product.name} %0A (V/U:  $${product.price}m) x *${product.quantity}*= $${product.price*product.quantity}000,%0A`);
+  .map((product) => `${product.name} %0A (V/U:  $${product.price}m) x *${product.quantity}*= $${product.price*product.quantity*1000},%0A`);
   const productsText = productNameandPrice.join(' ');
 
 
@@ -39,7 +41,7 @@ googleMapsUrl='';
     
 
     //texto link a whatsapp
-    const whatsappUrl = `https://api.whatsapp.com/send?phone=573234754284&text=${googleMapsUrl} %0A*¡Nuevo Pedido!*🛵%0A Restaurante Corralazo %0A*Productos*: %0A ${productsText} %0A*Valor total:* $${sum}000 %0A ${customerNameandAdress} `;
+    const whatsappUrl = `https://api.whatsapp.com/send?phone=573234754284&text=${googleMapsUrl} %0A*¡Nuevo Pedido!*🛵%0A Restaurante Corralazo %0A*Productos*: %0A ${productsText} %0A*Valor total:* $${sum} %0A ${customerNameandAdress} `;
 
     window.location.href = whatsappUrl; // Redirigir a WhatsApp
 

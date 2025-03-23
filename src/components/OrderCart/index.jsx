@@ -56,7 +56,7 @@ const OrderCart = ({id,name,image,price,quantity,category}) => {
 
     </div>
     <div className="flex items-center gap-2">
-          <p className="text-lg font-medium">${quantity*price}000</p>
+          <p className="text-lg font-medium"> ${new Intl.NumberFormat("es-CO").format(Math.round(quantity * price * 1000))}</p>
           
       </div>
 

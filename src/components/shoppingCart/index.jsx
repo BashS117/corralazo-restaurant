@@ -40,7 +40,7 @@ const ShoppingCart = ({sum}) => {
     <div className='px-6 mb-6'>
       <p className='flex justify-between items-center mb-2'> 
         <span className='font-light'>Total:</span>
-        <span className='font-medium '> ${sum}000</span>
+        <span className='font-medium '> ${sum}</span>
       </p>
     
     
