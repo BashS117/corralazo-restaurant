@@ -126,7 +126,7 @@ googleMapsUrl='';
          type="text"
          value={formData.direccionuno}
   onChange={handleInputChange} />
-       <p>#</p>
+       <p className='text-white'>#</p>
        <input 
          className='w-14'
          {...register('direcciondos', {
@@ -137,7 +137,7 @@ googleMapsUrl='';
          value={formData.direcciondos}
   onChange={handleInputChange}
          />
-       <p>-</p>
+       <p className='text-white'>-</p>
        <input 
        className='w-14' 
        {...register('direcciontres', {
