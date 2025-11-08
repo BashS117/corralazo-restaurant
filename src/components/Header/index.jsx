@@ -21,10 +21,10 @@ const Header = () => {
                     <p className='text-[0.8rem] bg-orange rounded-sm px-1 text-white  '>Calle 5 #9-40 Corinto</p>
                     <p  className='text-[0.8rem]  bg-orange rounded-sm px-1 text-white '>Cel: 323 475 4284</p>
                 </div>
-                 <lo className='text-[0.7rem] flex bg-white rounded-sm text-dark-gray mt-1'>
-                    <li> Elige categoría y escoge tu producto</li>
-                    <li> Envia tu pedido y espera tu domicilio</li>
-                </lo>
+                 <ol className='text-[0.7rem] sm:flex-col flex md:justify-evenly  bg-white rounded-sm text-dark-gray mt-1'>
+                    <li> * Elige categoría y escoge tu producto</li>
+                    <li> * Envia tu pedido y espera tu domicilio</li>
+                </ol>
             </div>
         </div>
         <input className='w-[85%] h-[30px] mt-2 py-1 pr-1 text-[1.4rem]' 

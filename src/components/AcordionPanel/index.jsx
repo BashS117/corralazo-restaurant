@@ -55,7 +55,7 @@ const AcordionPanel = ({ products, category, rightPanel }) => {
                 alt={product.name}
               />
             </figure>
-            <p className="font-bold text-lg text-white">{product.name}</p>
+            <p className="font-bold text-lg text-white break-words whitespace-normal">{product.name}</p>
             <p className="font-bold text-dark-gray bg-white px-2 py-1 rounded">
               ${product.price}
             </p>

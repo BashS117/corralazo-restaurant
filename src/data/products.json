@@ -8,8 +8,19 @@
         { "id":2,"name": "Hamburguesa de Cerdo", "price":15, "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/fea976185580241.65d2761c657fb.png","description":"con queso y tocineta es un manjar irresistible. Jugosa carne de Cerdo, queso derretido, crujiente tocineta y salsas de la casa crean una explosión de sabores. Ideal para los amantes de la comida rápida, cada bocado es una experiencia deliciosa que satisface todos los antojos." },
         { "id":3,"name": "Hamburguesa Doble Carne", "price":16, "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/8c027a185580241.6585b2a31eb56.png","description":"con queso y tocineta es un manjar irresistible. Jugosa doble carne, queso derretido, crujiente tocineta y salsas de la casa crean una explosión de sabores. Ideal para los amantes de la comida rápida, cada bocado es una experiencia deliciosa que satisface todos los antojos." },
         { "id":4,"name": "Hamburguesa Mixta", "price":16,  "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/3ee19c185580241.65675bb1bb62f.jpg","description":"con queso y tocineta es un manjar irresistible. Jugosa carne mixta, queso derretido, crujiente tocineta y salsas de la casa crean una explosión de sabores. Ideal para los amantes de la comida rápida, cada bocado es una experiencia deliciosa que satisface todos los antojos." },
-        { "id":5,"name": "Hamburguesa Triple", "price":22, "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/c9ccf9185580241.6585b99d20dc8.png","description":"con queso y tocineta es un manjar irresistible. Jugosa carne Triple, queso derretido, crujiente tocineta y salsas de la casa crean una explosión de sabores. Ideal para los amantes de la comida rápida, cada bocado es una experiencia deliciosa que satisface todos los antojos." },
+        { "id":5,"name": "Hamburguesa Triple o Reina", "price":22, "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/c9ccf9185580241.6585b99d20dc8.png","description":"con queso y tocineta es un manjar irresistible. Jugosa carne Triple, queso derretido, crujiente tocineta y salsas de la casa crean una explosión de sabores. Ideal para los amantes de la comida rápida, cada bocado es una experiencia deliciosa que satisface todos los antojos." },
         { "id":6,"name": "Porción papa", "price":2, "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/3ee19c185580241.65675bb1bb62f.jpg","description":"Porción de pápas" }
+      ]
+    },
+    {
+      "category": "Nachos",
+      "categoryImg": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/78f414185580241.690fc543cb714.png",
+
+      "products": [
+        { "id":82,"name": "Nachos Corralazo", "price":15, "image": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/78f414185580241.690fc543cb714.png", "description":"Nachos con salsa de la casa, queso cheddar, pico de gallo, proteína de pollo y carne de res desmechada."  },
+        { "id":83,"name": "Nachos de pollo", "price":12, "image": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/7cfeb0185580241.690fc811d9d88.png","description":"Nachos con salsa de la casa, queso cheddar, pico de gallo, y proteína de pollo." },
+        { "id":84,"name": "Naches de carne", "price":13, "image": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/7033dd185580241.690fc8388d480.png","description":"Nachos con salsa de la casa, queso cheddar, pico de gallo, y proteína de res desmechada." }
+
       ]
     },
     {
@@ -20,14 +31,17 @@
         { "id":7,"name": "Salchipapa Sencilla", "price":6, "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/878895185580241.65858fb6abf84.png" ,"description":"Son una combinación perfecta de papas fritas crujientes y salchichas troceadas, bañadas con nuestras deliciosas salsas para un sabor irresistible. "},
         { "id":8,"name": "Salchipapa de Pollo", "price":8, "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/878895185580241.65858fb6abf84.png" ,"description":"Son una combinación perfecta de pollo, papas fritas crujientes y salchichas troceadas, bañadas con nuestras deliciosas salsas para un sabor irresistible. "},
         { "id":9,"name": "Salchipapa y Tocineta", "price":8, "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/878895185580241.65858fb6abf84.png" ,"description":"Son una combinación perfecta de tocineta, papas fritas crujientes y salchichas troceadas, bañadas con nuestras deliciosas salsas para un sabor irresistible. "},
+        { "id":68,"name": "Ranchipapa", "price":9, "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/878895185580241.65858fb6abf84.png" ,"description":"Combinacion perfecta de papas fritas crujientes, salchica ranchera, salsas y queso."},
         { "id":10,"name": "Salchipapa Pollo y Tocineta", "price":9, "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/878895185580241.65858fb6abf84.png" ,"description":"Son una combinación perfecta de pollo y tocinetas, papas fritas crujientes y salchichas troceadas, bañadas con nuestras deliciosas salsas para un sabor irresistible. "},
         { "id":11,"name": "Salchipapa Maiz y Pollo", "price":9, "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/878895185580241.65858fb6abf84.png" ,"description":"Son una combinación perfecta de maiz y pollo, papas fritas crujientes y salchichas troceadas, bañadas con nuestras deliciosas salsas para un sabor irresistible. "},
         { "id":62,"name": "Salchipapa Maiz y Carne", "price":9, "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/878895185580241.65858fb6abf84.png" ,"description":"Son una combinación perfecta de maiz y carne de res, papas fritas crujientes y salchichas troceadas, bañadas con nuestras deliciosas salsas para un sabor irresistible. "},
         { "id":12,"name": "Salchipapa de Carne", "price":9, "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/878895185580241.65858fb6abf84.png" ,"description":"Son una combinación perfecta de carne de res, papas fritas crujientes y salchichas troceadas, bañadas con nuestras deliciosas salsas para un sabor irresistible. "},
         { "id":13,"name": "Salchipapa Carne y Tocineta", "price":10, "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/878895185580241.65858fb6abf84.png" ,"description":"Son una combinación perfecta de carne de resy tocineta, papas fritas crujientes y salchichas troceadas, bañadas con nuestras deliciosas salsas para un sabor irresistible. "},
-        { "id":14,"name": "Salchipapa Con chorizo", "price":11, "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/878895185580241.65858fb6abf84.png" ,"description":"Son una combinación perfecta de chorizo, papas fritas crujientes y salchichas troceadas, bañadas con nuestras deliciosas salsas para un sabor irresistible. "},
+        { "id":14,"name": "Salchipapa Con Chorizo", "price":11, "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/878895185580241.65858fb6abf84.png" ,"description":"Son una combinación perfecta de chorizo, papas fritas crujientes y salchichas troceadas, bañadas con nuestras deliciosas salsas para un sabor irresistible. "},
         { "id":63,"name": "Salchipapa Para dos personas", "price":20, "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/878895185580241.65858fb6abf84.png" ,"description":"Salchipapa para dos personas de papas fritas crujientes y salchichas troceadas, bañadas con nuestras deliciosas salsas para un sabor irresistible. "},
-        { "id":15,"name": "Salchipapa Familiar", "price":25, "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/878895185580241.65858fb6abf84.png" ,"description":"Salchipapa familiar de papas fritas crujientes y salchichas troceadas, bañadas con nuestras deliciosas salsas para un sabor irresistible. "}
+        { "id":15,"name": "Salchipapa Familiar", "price":25, "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/878895185580241.65858fb6abf84.png" ,"description":"Salchipapa familiar de papas fritas crujientes y salchichas troceadas, bañadas con nuestras deliciosas salsas para un sabor irresistible. "},
+        { "id":55,"name": "Choripapa", "price":9, "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/08ece6185580241.65884deb47eb1.png" }
+
       ]
     },
     {
@@ -37,6 +51,7 @@
       "products": [
         { "id":64,"name": "Arepa de Pollo", "price":12, "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/a0857d185580241.67d74f64e047d.png" ,"description":"arepas caseras de maíz con pollo, verduras queso y salsas de la casa"},
         { "id":65,"name": "Arepa de Carne desmechada", "price":12,  "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/a0857d185580241.67d74f64e047d.png" ,"description":"arepas caseras de maíz con carne de res desmechada, verduras queso y salsas de la casa"},
+        { "id":69,"name": "Arepa Mixta", "price":15,  "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/a0857d185580241.67d74f64e047d.png" ,"description":"arepas caseras de maíz con carne de res desmechada, pollo, verduras queso y salsas de la casa"},
         { "id":66,"name": "Arepa Burguer de la Casa", "price":13,  "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/a0857d185580241.67d74f64e047d.png" ,"description":"Arepa burguer especial de la casa"}
      
       ]
@@ -59,7 +74,8 @@
       "products": [
         { "id":21,"name": "Sandwich de Pollo", "price":10, "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/c40ba7185580241.65858fb6ada14.png", "description": "Son hechos con pollo, pan artesanal verduras frescas queso y nuestras deliciosas salsas" },
         { "id":22,"name": "Sandwich Mixto",  "price":12, "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/c40ba7185580241.65858fb6ada14.png" , "description": "Son hechos con carne de res y pollo, pan artesanal verduras frescas queso y nuestras deliciosas salsas" },
-        { "id":23,"name": "Sandwich Mexicano", "price":12, "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/c40ba7185580241.65858fb6ada14.png" , "description": "Sandwich especial mexicano" },
+        { "id":23,"name": "Sandwich Mexicano", "price":12, "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/c40ba7185580241.65858fb6ada14.png" , "description": "Sandwich especial Mexicano" },
+        { "id":70,"name": "Sandwich Italiano", "price":13, "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/c40ba7185580241.65858fb6ada14.png" , "description": "Sandwich especial Italino, con pan de arégano, verduras frescas, queso, pollo y salami" },
         { "id":24,"name": "Sandwich de Jamón", "price":8, "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/c40ba7185580241.65858fb6ada14.png" , "description": "Son hechos con jamón, pan artesanal verduras frescas queso y nuestras deliciosas salsas" }
       ]
     },
@@ -69,7 +85,8 @@
       "products": [
         { "id":25,"name": "Aplastado de Pollo", "price":10, "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/ada19e185580241.65858fb6ab1d1.png","description":"Elaborados con pollo, pan redondo con queso verduras y nuestras deliciosas salsas" },
         { "id":26,"name": "Aplastado Mixto",  "price":12, "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/ada19e185580241.65858fb6ab1d1.png" ,"description":"Elaborados con carne de res y pollo, pan redondo con queso verduras y nuestras deliciosas salsas" },
-        { "id":27,"name": "Aplastado Mexicano", "price":12, "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/ada19e185580241.65858fb6ab1d1.png" , "description": "Aplastado especial mexicano"  },
+        { "id":27,"name": "Aplastado Mexicano", "price":12, "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/ada19e185580241.65858fb6ab1d1.png" , "description": "Aplastado especial Mexicano"  },
+        { "id":71,"name": "Aplastado Italiano", "price":13, "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/ada19e185580241.65858fb6ab1d1.png" , "description": "Aplastado especial Italiano, con pan de arégano, verduras frescas, queso, pollo y salami"  },
         { "id":28,"name": "Aplastado de Jamón", "price":8, "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/ada19e185580241.65858fb6ab1d1.png", "description":"Elaborados con jamón, pan redondo con queso verduras y nuestras deliciosas salsas" }
     ]
     },
@@ -82,7 +99,16 @@
         { "id":31,"name": "Perro de Carne", "price":11,  "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/4288be185580241.65858fb6aa6e9.png","description":"Salchicha 100% americana, carne de res pan artesanal ripio tocineta queso  y sus deliciosas salsas"},
         { "id":32,"name": "Perro Mexicano", "price":12, "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/4288be185580241.65858fb6aa6e9.png","description":"Perro especial mexicano"},
         { "id":33,"name": "Perro De la Casa", "price":12, "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/4288be185580241.65858fb6aa6e9.png","description":"Perro especial de la casa"},
-        { "id":34,"name": "Perro Mixto", "price":12, "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/4288be185580241.65858fb6aa6e9.png","description":"Salchicha 100% americana carne de res y pollo pan artesanal ripio tocineta queso  y sus deliciosas salsas"}
+        { "id":34,"name": "Perro Mixto", "price":12, "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/4288be185580241.65858fb6aa6e9.png","description":"Salchicha 100% americana carne de res y pollo pan artesanal ripio tocineta queso  y sus deliciosas salsas"},
+        { "id":72,"name": "Perro Frances", "price":15, "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/4288be185580241.65858fb6aa6e9.png","description":"Salchicha 100% americana,con tocineta, nuestras deliciosas salsas, maicitos y cremoso de pollo."}
+      ]
+    },
+    {
+      "category": "Pinchos",
+      "categoryImg": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/be6822185580241.690fcfee88bc7.png",
+      "products": [
+        { "id":85,"name": "Pincho de pollo", "price":11, "image": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/be6822185580241.690fcfee88bc7.png","description":"1 pincho de Carnde de pollo adobada con salsas de la casa + papas a la francesa"},
+        { "id":86,"name": "Pincho de costilla", "price":13, "image": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/427d16185580241.690fcfee8850c.png","description":"1 pincho de Costilla de cerdo ahumada + papas a la francesa"}
       ]
     }
   ]

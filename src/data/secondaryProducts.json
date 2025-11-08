@@ -3,9 +3,11 @@
       "category": "Bebidas",
       "categoryImg": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/6b098a185580241.6586fcf16a268.png",
       "products": [
-        { "id":35,"name": "Sodas italiana", "price":6, "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/56b359185580241.65885d27d72b0.png" },
+        { "id":35,"name": "Soda italiana de Cereza", "price":7, "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/56b359185580241.65885d27d72b0.png" },
+        { "id":73,"name": "Soda italiana de Frutos amarillos", "price":7, "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/56b359185580241.65885d27d72b0.png" },
         { "id":36,"name": "Limonada cereza", "price":6, "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/98e647185580241.6586fcf1697c4.png" },
         { "id":37,"name": "Limonada de Coco", "price":7, "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/cabc33185580241.6586fcf1680ec.png" },
+        { "id":74,"name": "Frapuchino", "price":9, "image": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/aa266a185580241.690ebddc6ecbc.png" },
         { "id":38,"name": "Cocacola Lata", "price":3, "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/fd569d185580241.6586fcf16add2.png" },
         { "id":39,"name": "Cocacola Personal", "price":4, "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/dd7e70185580241.6586fcf168c00.png" },
         { "id":40,"name": "Cocacola Litro", "price":7, "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/328d30185580241.6586fcf1672b2.png" },
@@ -22,7 +24,7 @@
       "products": [
         { "id":46,"name": "Granizado Sin Licor", "price":5, "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/8205ee185580241.65870868accf4.png" },
         { "id":47,"name": "Granizado Con Licor", "price":6, "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/22f9b7185580241.65870868a9817.png" },
-        { "id":48,"name": "Adi jeringa", "price":2, "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/3a8eca185580241.65870868a8a18.png" }
+        { "id":48,"name": "Adi jeringa Licor", "price":2, "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/3a8eca185580241.65870868a8a18.png" }
       ]
     },
     {
@@ -30,7 +32,9 @@
       "categoryImg": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/7649e8185580241.67dce07d7aa31.jpeg",
 
       "products": [
-        { "id":49,"name": "Mini Hamburguesas", "price":9, "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/7b6935185580241.65885f2f32544.png" ,"description":" Ideal para niños viene con su porción de papas salsa verduras carne queso y tocineta"}
+        { "id":49,"name": "Mini Hamburguesas", "price":9, "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/7b6935185580241.65885f2f32544.png" ,"description":" Ideal para niños viene con su porción de papas salsa verduras carne queso y tocineta"},
+        { "id":75,"name": "Mini Perro", "price":7, "image": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/b62a43185580241.690ebfce5a709.png" ,"description":" Ideal para niños "},
+        { "id":76,"name": "Burrito", "price":7, "image": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/f43690185580241.690ec11fe38ab.png" ,"description":" Ideal para niños "}
        ]
     },
     {
@@ -41,10 +45,17 @@
         { "id":50,"name": "Desgranado sencillo", "price":12, "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/0c212b185580241.65d276ffc7f2a.png" ,"description": "Elaborados con maíz dulce crema de leche salchicha ranchera tocineta queso ripio y nuestra salsa de la casa"},
         { "id":51,"name": "Desgranado de la Casa", "price":15, "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/ee2513185580241.65d2761c6472f.png","description" : "Degranado especial de la casa"},
         { "id":52,"name": "Papas locas", "price":10, "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/18a83d185580241.65d2787f52f55.png" },
-        { "id":53,"name": "Choripan", "price":8, "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/461f11185580241.65884deb4a2c5.png" },
+        { "id":53,"name": "Choripan", "price":8, "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/461f11185580241.65884deb4a2c5.png" }
+
+      ]
+    },
+    {
+      "category": "Picadas",
+      "categoryImg": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/948a61185580241.690ec9af7c018.png",
+
+      "products": [
         { "id":54,"name": "Picada al Barril para 2", "price":25,  "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/5f1fd9185580241.65884deb48b0f.png" ,"description":"carne al barril para dos personas de cerdo res y chorizo acompañada de papas al francesa"},
-        { "id":67,"name": "Picada al Barril para 3", "price":30,  "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/5f1fd9185580241.65884deb48b0f.png" ,"description":"carne al barril para tres personas de cerdo res y chorizo acompañada de papas al francesa"},
-        { "id":55,"name": "Choripapa", "price":9, "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/08ece6185580241.65884deb47eb1.png" }
+        { "id":67,"name": "Picada al Barril para 3", "price":30,  "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/5f1fd9185580241.65884deb48b0f.png" ,"description":"carne al barril para tres personas de cerdo res y chorizo acompañada de papas al francesa"}
       ]
     },
     {
@@ -53,10 +64,16 @@
       "products": [
         { "id":56,"name": "Adición de Queso", "price":1, "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/4583c6185580241.658858635a54b.png" },
         { "id":57,"name": "Adición de Maiz",  "price":1, "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/f2e88c185580241.658858635aea5.png" },
+        { "id":80,"name": "Costilla", "price":2, "image": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/6496c0185580241.690ec75bb94ee.png" },
+        { "id":81,"name": "Rancheras", "price":3, "image": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/d91cbe185580241.690ec83544977.png" },
+        { "id":77,"name": "Adición de Carne",  "price":2, "image": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/fc2f3b185580241.690ec4ea0b265.png" },
+        { "id":78,"name": "Adición de Pollo",  "price":2, "image": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/8bbc6b185580241.690ec5b0d1784.png" },
         { "id":58,"name": "Adición de Tocineta", "price":2, "image": "https://mir-s3-cdn-cf.behance.net/project_modules/disp/d4e43d185580241.65886218cc534.png" },
+        { "id":79,"name": "Chorizo", "price":2, "image": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/43ab3a185580241.690ec6705008a.png" },
         { "id":59,"name": "Adición de Chicharrón", "price":2, "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/8085fd185580241.65885c0bed8b8.png" },
         { "id":60,"name": "Adición de Cebolla Dulce", "price":2, "image": "https://mir-s3-cdn-cf.behance.net/project_modules/disp/605717185580241.658860c31fd8b.png" },
         { "id":61,"name": "Adición de Pico de Gallo", "price":2, "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/10e700185580241.65885c0bece92.png" }
+
       ]
     }
   ]
